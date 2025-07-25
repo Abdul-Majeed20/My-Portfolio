@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="w-full h-full rounded-full bg-gradient-to-r from-primary to-accent p-1 glow-effect">
             <div className="w-full h-full rounded-full bg-card flex items-center justify-center">
               <img
-                src="/public/Profile.jpeg" // Update with your actual profile image path
+                src="/Profile.jpeg" // Update with your actual profile image path
                 alt="John Doe Profile Picture"
                 className="w-full h-full object-cover object-center rounded-full"
               />

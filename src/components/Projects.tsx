@@ -9,7 +9,7 @@ const Projects = () => {
       description:
         "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
       technologies: ["React", "Redux", "Firebase", "Tailwind" , "DummyJSON"],
-      image: "/public/E-com.png",
+      image: "/E-com.png",
       liveUrl: "https://my-ecom-project.vercel.app/",
       githubUrl: "https://github.com/Abdul-Majeed20/My-Ecom-Project.git",
     },
@@ -18,7 +18,7 @@ const Projects = () => {
       description:
         "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
       technologies: ["Shopify partner", "Shopify Liquid"],
-      image: "/public/Rasta.png",
+      image: "/Rasta.png",
       liveUrl: "",
       githubUrl: "https://github.com",
     },
@@ -27,7 +27,7 @@ const Projects = () => {
       description:
         "A beautiful weather dashboard with interactive charts, location-based forecasts, and responsive design optimized for all devices.",
       technologies: ["React", "next.js", "Tailwind"],
-      image: "/public/Bookme.png",
+      image: "/Bookme.png",
       liveUrl: "https://bookme-com-clone.vercel.app/",
       githubUrl: "https://github.com/Abdul-Majeed20/Bookme.com-Clone.git",
     },
@@ -36,7 +36,7 @@ const Projects = () => {
       description:
         "A modern, responsive portfolio website showcasing clean design principles and smooth animations built with React and Tailwind CSS.",
       technologies: ["React", "Bootstrap", "DummyJSON", "Vite"],
-      image: "/public/SocialMedia.png",
+      image: "/SocialMedia.png",
       liveUrl: "https://react-social-media-app-xi.vercel.app/",
       githubUrl: "https://github.com/Abdul-Majeed20/React-Social-Media-App.git",
     },
