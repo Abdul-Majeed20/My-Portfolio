@@ -5,21 +5,21 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Realancer - Free Freelancing Always",
       description:
-        "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-      technologies: ["React", "Redux", "Firebase", "Tailwind" , "DummyJSON"],
-      image: "/E-com.png",
-      liveUrl: "https://my-ecom-project.vercel.app/",
-      githubUrl: "https://github.com/Abdul-Majeed20/My-Ecom-Project.git",
+        "Realancer is for anyone wanting to work part-time or full-time as a freelancer. It allows users to create profiles, showcase their skills, and connect with potential clients looking for freelance services.",
+      technologies: ["React", "Redux", "FastApi", "Tailwind" , ],
+      image: "/realancer.png",
+      liveUrl: "https://app.realancer.net/",
+      githubUrl: "",
     },
     {
-      title: "Rasta Clone",
+      title: "Nutrivida - Nutrition Tracking",
       description:
-        "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["Shopify partner", "Shopify Liquid"],
-      image: "/Rasta.png",
-      liveUrl: "",
+        "Finally, A Health Plan that honors you culture",
+      technologies: ["React", "Redux", "Express", "Mongodb", "JWT", "OpenAi" ],
+      image: "/nutrivida.png",
+      liveUrl: "https://nutrivida-frontend.vercel.app/",
       githubUrl: "https://github.com",
     },
     {
