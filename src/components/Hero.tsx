@@ -30,7 +30,7 @@ const Hero = () => {
             <span className="text-gradient">Abdul Majeed</span>
           </h1>
           <h2 className="text-xl md:text-2xl lg:text-3xl text-muted-foreground font-light">
-            Full Stack Developer & Shopify Developer
+            Full Stack Developer(MERN)
           </h2>
         </div>
 
