@@ -16,7 +16,7 @@ const Projects = () => {
     {
       title: "Nutrivida - Nutrition Tracking",
       description:
-        "Finally, A Health Plan that honors you culture",
+        "Nutrivida is an AI-powered nutrition platform (MERN stack) that generates personalized weekly meal plans based on a 10-question onboarding. Users can log meals via text or photos to get nutritional insights and track their diet.",
       technologies: ["React", "Redux", "Express", "Mongodb", "JWT", "OpenAi" ],
       image: "/nutrivida.png",
       liveUrl: "https://nutrivida-frontend.vercel.app/",
