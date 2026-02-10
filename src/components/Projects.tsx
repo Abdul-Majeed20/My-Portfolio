@@ -32,13 +32,13 @@ const Projects = () => {
       githubUrl: "https://github.com/Abdul-Majeed20/Bookme.com-Clone.git",
     },
     {
-      title: "React Social Media App",
+      title: "Filmy Duniya (Movie App & Website)",
       description:
-        "A modern, responsive portfolio website showcasing clean design principles and smooth animations built with React and Tailwind CSS.",
-      technologies: ["React", "Bootstrap", "DummyJSON", "Vite"],
-      image: "/SocialMedia.png",
-      liveUrl: "https://react-social-media-app-xi.vercel.app/",
-      githubUrl: "https://github.com/Abdul-Majeed20/React-Social-Media-App.git",
+        "Filmy Duniya is a movie app and website that provides users with information about movies, including details, trailers, and reviews. It features a sleek design and user-friendly interface.",
+      technologies: ["MERN", "React Native", "TMDB Api", "Redux-Toolkit"],
+      image: "/Filmy-duniya.png",
+      liveUrl: "https://filmy-duniya-gamma.vercel.app/",
+      githubUrl: "https://github.com/Abdul-Majeed20/Filmy-Duniya",
     },
   ];
 
