@@ -5,19 +5,27 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Realancer - Free Freelancing Always",
+      title: "BillWise - AI Electricity Bill Analyzer",
       description:
-        "Realancer is for anyone wanting to work part-time or full-time as a freelancer. It allows users to create profiles, showcase their skills, and connect with potential clients looking for freelance services.",
-      technologies: ["React", "Redux", "FastApi", "Tailwind" , ],
-      image: "/realancer.png",
-      liveUrl: "https://app.realancer.net/",
-      githubUrl: "",
+        "BillWise is an AI-powered web application that analyzes electricity bills and provides smart insights to help users understand and reduce their energy costs. Users can upload or manually enter bill data, get detailed AI-generated explanations using Gemini API, and track their bill history with analytics and filtering features.",
+      technologies: [
+        "React",
+        "Redux",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Tailwind",
+        "Gemini API",
+      ],
+      image: "/BillWise.png",
+      liveUrl: "https://billwise-ai-bill-analyzer.netlify.app/",
+      githubUrl: "https://github.com/Abdul-Majeed20/utility-bill-analyzer",
     },
     {
       title: "Nutrivida - Nutrition Tracking",
       description:
         "Nutrivida is an AI-powered nutrition platform (MERN stack) that generates personalized weekly meal plans based on a 10-question onboarding. Users can log meals via text or photos to get nutritional insights and track their diet.",
-      technologies: ["React", "Redux", "Express", "Mongodb", "JWT", "OpenAi" ],
+      technologies: ["React", "Redux", "Express", "Mongodb", "JWT", "OpenAi"],
       image: "/nutrivida.png",
       liveUrl: "https://nutrivida-frontend.vercel.app/",
       githubUrl: "https://github.com",
