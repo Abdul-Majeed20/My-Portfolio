@@ -48,6 +48,15 @@ const Projects = () => {
       liveUrl: "https://filmy-duniya-gamma.vercel.app/",
       githubUrl: "https://github.com/Abdul-Majeed20/Filmy-Duniya",
     },
+    {
+      title: "Yasir Restaurant – Fully Responsive Web Experience",
+      description:
+        "Yasir Restaurant is a dining establishment and website that provides customers with authentic Pakistani cuisine, including traditional dishes, beverages, and warm hospitality. It features a modern design and user-friendly interface.",
+      technologies: ["React.js", "CSS", "Google map Api", "font-awsome"],
+      image: "/yasir-restraunt.png",
+      liveUrl: "https://yasir-restraunt.netlify.app/",
+      githubUrl: "https://github.com/Abdul-Majeed20/yasir-restraunt",
+    },
   ];
 
   return (

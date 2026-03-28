@@ -48,8 +48,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "abdulmajeedbaloch315@gmail.com",
-      link: "mailto:john.doe@example.com"
+      value: "abdulmajeed.professional@gmail.com",
+      link: ""
     },
     {
       icon: Phone,
@@ -60,7 +60,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      value: "Hyderabad Sindh , Pakistan",
+      value: "Lahore Punjab , Pakistan",
       link: null
     }
   ];
