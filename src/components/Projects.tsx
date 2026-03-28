@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: "BillWise - AI Electricity Bill Analyzer",
       description:
-        "BillWise is an AI-powered web application that analyzes electricity bills and provides smart insights to help users understand and reduce their energy costs. Users can upload or manually enter bill data, get detailed AI-generated explanations using Gemini API, and track their bill history with analytics and filtering features.",
+        "BillWise is an AI-powered web app that analyzes electricity bills, provides smart insights, and helps users reduce energy costs through AI explanations, bill tracking, and analytics.",
       technologies: [
         "React",
         "Redux",
@@ -76,7 +76,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="card-professional overflow-hidden group animate-slide-up"
+              className="card-professional overflow-hidden group animate-slide-up flex flex-col h-full"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {/* Project Image */}
@@ -95,30 +95,33 @@ const Projects = () => {
               </div>
 
               {/* Project Content */}
-              <div className="p-6 space-y-4">
-                <div className="space-y-2">
-                  <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
-                    {project.title}
-                  </h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    {project.description}
-                  </p>
+              <div className="p-6 flex flex-col flex-grow">
+                <div className="space-y-4">
+                  {/* Title + Description */}
+                  <div className="space-y-2">
+                    <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
+                      {project.title}
+                    </h3>
+                    <p className="text-muted-foreground text-sm leading-relaxed line-clamp-3 line-clamp-3">
+                      {project.description}
+                    </p>
+                  </div>
+
+                  {/* Technologies */}
+                  <div className="flex flex-wrap gap-2">
+                    {project.technologies.map((tech, techIndex) => (
+                      <span
+                        key={techIndex}
+                        className="px-3 py-1 bg-secondary/60 text-xs font-medium rounded-full"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
 
-                {/* Technologies */}
-                <div className="flex flex-wrap gap-2">
-                  {project.technologies.map((tech, techIndex) => (
-                    <span
-                      key={techIndex}
-                      className="px-3 py-1 bg-secondary/60 text-xs font-medium rounded-full"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-
-                {/* Project Links */}
-                <div className="flex space-x-3 pt-4">
+                {/* Push buttons to bottom */}
+                <div className="mt-auto pt-4 flex space-x-3">
                   <Button size="sm" className="flex-1" asChild>
                     <a
                       href={project.liveUrl}
